@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- jQuery for the toggle JS fuctionality-->
+	<link rel="stylesheet" href="./font_awesome/css/font-awesome.min.css"> <!-- icons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- mobile friendly -->
+	<link rel="stylesheet" type="text/css" href="./style/portfolio_v1_style.css">
+	<title>Portfolio</title>
+
+<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+	<div id = "page">
+
+
+		<div id="header">
+			<a href="./index.html"><img src="./offical_logo.png" align="left"></a>
+
+			<a href="#" id="menu_button">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</a>
+
+			<div id= "menu_list">
+				<a href="./index.html">Home</a> &nbsp;  &nbsp;
+				<a href="./me.html">About</a> &nbsp; &nbsp;
+				<a href="./work.html">Contact</a>
+			</div>
+
+		</div> <!-- end header-->
+
+
+		<div id="menu_detail">
+			<ul>
+				<li><a href="./home.php">Home</a></li>
+				<li><a href="./about.php">About</a></li>
+				<li><a href="./contact.php">Contact</a></li>
+
+			</ul>
+		</div>  <!-- end menu_detail -->
+
+
+		<div id= "box1">Selected projects
+
+
+		</div> <!--end box1 -->
+
+		<div id="box2">
+			<a href="https://www.uniiculture.xyz/"><img src="./uniic.png" width="641" height="350"></a>
+
+		</div> <!-- end box2 -->
+
+		<div id="box3">Detail about Uniiculture
+		
+		</div>
+
+		<div id="box4">
+			 <a href="https://www.ohio.edu/internationalweek/"><img src="./i_week.png" width="641" height="350"></a>  
+		</div>
+
+		<div id="box5">
+		details about i_week
+		</div>
+
+		<div id="box6">
+			<img src="./i_week_poster.jpg" width="641" height="400">
+
+		</div>
+
+		<div id ="box7">
+		details about poster
+		</div>
+
+		<div id="box8">
+			<img src="./i_w.jpg" width="641" height="400">
+
+		</div>
+
+		<div id= "box9">
+		details about the women poster
+		</div>
+
+		<div id="box10">
+		<img src="./elimes.png" width="641" height="400">
+		</div>
+
+		<div id="box11">
+		details about elimes
+		</div>
+
+
+		<div id="footer">
+This is footer
+		</div>
+
+
+
+	</div>  <!-- end page -->
+
+
+
+	
+
+
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#menu_button").click(function(){
+			$("#menu_detail").slideToggle(700);
+		});
+	});
+
+
+
+</script>
+
+
+</body>
+</html>
