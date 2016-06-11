@@ -20,24 +20,35 @@
     	width: 100%;
     }
 
+
+
+
     #header{
-	background-color: white;
+	background-color: #383d36;
 	border-width: 0px;
 	border-style: solid;
 	text-align: right;
 	height: 60px;
+
 	
 	}
 
 
+    #menu_button {
+            text-decoration: none;
+            color:white;
+    }
 
+    #menu_button:hover{
+        color: grey;
+    }
 
     #menu_list{
         display: none;
     }
 
 	#header img{
-		width: 90px;
+		width: 50px;
 		height: 40px;
 		margin-left: 10px;
 		margin-top: 10px;
@@ -46,7 +57,7 @@
 
 	#header i{
 		margin-right: 15px;  /* menu bard */
-		margin-top: 17px;
+		margin-top: 14px;
 	}
 
     /* include color for when you click the menu bar */
@@ -57,9 +68,9 @@
 
 
     #menu_detail{
-    background: #1abc9c;
-    border-width: 0px;
-    border-style: solid;
+    background: #14292e;
+    
+
     }
 
     #menu_detail ul{
@@ -70,38 +81,45 @@
     }
 
     #menu_detail ul li{ /* words inside toggleeffect */
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 2px;
         padding: 15px 0;
         text-transform: uppercase;
+
     }
 
     #menu_detail ul li:hover{
-        background: #16a085;
+        background: #234851;
     }
 
     #menu_detail a{
         text-decoration: none;
-        color: black;
+        color: white;
     }
+
+
 
 
     #box1{
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        background: #cccecb;
+        font-size: 22px;
+        background: #dddedc;
         height: 60px;
         text-align: center;
 
     }
 
-    #box2{
+    #box1_word{
+        line-height: 50px;
+        vertical-align: middle;
+    }
+
+    #box2{  /*link to uniiculture.xyz */
         border-style: solid;
-        border-width: 1px;
+        border-width: 0px;
+
         /*note: don't give the box a height */
-        
-          
-        
+         
     }
 
     #box2 img{
@@ -109,15 +127,37 @@
         height: auto;
     }
 
+
     #box3{
-        text-align: center;
-        height: 200px;
+        
+        height: 130px;
+        background: white;
     }
 
 
+    .title{
+        margin-top: 18px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+
+
+
+    .detail_word{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+    
+    
+    }
+
     #box4{
-        border-style: solid;
-        border-width: 1px;
+
         /* don't give box4 height */
     }
 
@@ -127,12 +167,11 @@
     }
 
     #box5 {
-        height: 200px;
+        height: 130px;
     }
 
     #box6 {
-        border-style: solid;
-        border-width: 1px;
+
         /* don't give box6 height */
     }
 
@@ -142,7 +181,7 @@
     }
 
     #box7{
-        height: 200px;
+        height: 130px;
     }
 
     #box8 img{
@@ -150,19 +189,30 @@
         height: auto;
     }
 
+    #box9{
+        height: 130px;
+    }
+
     #box10 img{
         max-width: 100%;
         height: auto;
     }
 
+
+
     #box11{
-        height: 100px;
+        height: 150px;
     }
 
     #footer{
-        height: 100px;
+        height: 90px;
         text-align: center;
+        background-color: #383d36;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+
     }
+
 
 
 } /* end min-width: 320px */
