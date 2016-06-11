@@ -1,0 +1,113 @@
+
+
+/* Don't need a media querie bc css properties align with layout of sizes. */
+	html { 
+  		background: url(./images/contact.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+
+	
+	#page{
+		width: 100%;
+		height: 50%;
+
+ 		margin: auto;
+  		position: absolute;
+  		top: 0; left: 0; bottom: 0; right: 0;
+
+	}
+
+	#name{
+		/* margin-top: 700px;  */
+		text-align: center;
+		color: white;
+		font-family: 'Poiret One', cursive;
+		font-size: 80px;
+	}
+	#career{
+		margin-top: 30px;
+		text-align: center;
+		color: white;
+		font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+		font-size: 40px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		
+	}
+
+	#work_box{
+
+		margin-top: 30px;
+		border-style: solid;
+		border-width: 0px;
+		color: white;
+	}
+
+	#work_box_content{
+		
+		margin: auto;
+		border-style: solid;
+		border-width: 1px;
+		width: 300px;
+		height: 100px;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+
+	#work_box_content a{
+		display: block;
+		width: 300px;
+	  	height: 100px;
+  		line-height: 100px; /* work with only one single piece of text */
+		font-size: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #393942;  
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		opacity: 0.6;
+
+		
+	
+	}
+
+	#work_box_content a:hover{
+		background: #191a35;
+		text-decoration: none;
+	}
+
+	#social{
+		margin-top: 30px;
+		width: 100%;
+		height: 100px;
+		border-style: solid;
+		border-width: 0px;
+		color: white;
+	}
+
+	#icons{
+		text-align: center;
+	}
+
+	#icons a:link{
+		text-decoration: none;
+		color: #ededf6;
+	}
+
+	#icons a:visited{
+		text-decoration: none;
+		color: #ededf6;
+	}
+
+	#icons a:hover{
+		text-decoration: none;
+		color: grey;
+	}
+
+}
+
