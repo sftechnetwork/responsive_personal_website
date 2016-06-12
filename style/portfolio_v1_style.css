@@ -4,6 +4,10 @@
     display: none;
 }
 
+#links a{
+    color: grey;
+}
+
 
 
 /* Smartphones */
@@ -739,7 +743,7 @@
     font-weight: 400;
     
     margin: auto;
-    width: 60%;
+    width: 50%;
     
     }
     #box4{
