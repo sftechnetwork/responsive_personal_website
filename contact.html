@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- jQuery for the toggle JS fuctionality-->
+	<link rel="stylesheet" href="./font_awesome/css/font-awesome.min.css"> <!-- icons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- mobile friendly -->
+	<link rel="stylesheet" type="text/css" href="./style/portfolio_v1_style.css">
+</head>
+<body>
+
+	<div id = "page">
+		<div id="header">
+
+			<a href="./index.html"><img src="./images/logo.png" align="left"></a> 
+
+			<a href="#" id="menu_button">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</a>
+
+			<div id= "menu_list">
+				<a href="./portfolio_v1.html">Home</a> &nbsp;  &nbsp;
+				<a href="./about.html">About</a> &nbsp; &nbsp;
+				<a href="./contact.html">Contact</a>
+			</div>
+
+
+
+		</div> <!-- end header -->
+
+		<div id="menu_detail">
+			<ul>
+				<li><a href="./portfolio_v1.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+
+			</ul>
+		</div>  <!-- end menu_detail -->
+
+
+	</div> <!-- page -->
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#menu_button").click(function(){
+			$("#menu_detail").slideToggle(700);
+		});
+	});
+
+
+
+</script>
+
+
+</body>
+</html>
