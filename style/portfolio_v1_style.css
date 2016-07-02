@@ -1,5 +1,4 @@
 
-
 #menu_detail{
     display: none;
 }
@@ -112,7 +111,14 @@
         vertical-align: middle;
     }
 
-    #box2{  /*link to uniiculture.xyz */
+    #community_app img{ 
+        max-width: 100%;
+        height: auto;
+    }
+
+    #box2{
+      /*link to uniiculture.xyz */
+        margin-top: 20px;
         border-style: solid;
         border-width: 0px;
 
@@ -315,7 +321,13 @@
         vertical-align: middle;
     }
 
+    #community_app img{ 
+        max-width: 100%;
+        height: auto;
+    }
+
     #box2{  /*link to uniiculture.xyz */
+        margin-top: 20px;
         border-style: solid;
         border-width: 0px;
 
@@ -509,13 +521,20 @@
 
     }
 
+
     #box1_word{
         line-height: 50px;
         vertical-align: middle;
     }
 
+    #community_app { 
+        text-align: center;
+        margin-top: 20px;
+    }
+
 
     #box2{  /*link to uniiculture.xyz */
+        margin-top: 20px;
         border-style: solid;
         border-width: 0px;
         text-align: center;
@@ -708,8 +727,14 @@
         vertical-align: middle;
     }
 
+    #community_app { 
+        text-align: center;
+        margin-top: 20px;
+    }
+
 
     #box2{  /*link to uniiculture.xyz */
+        margin-top: 20px;
         border-style: solid;
         border-width: 0px;
         text-align: center;
